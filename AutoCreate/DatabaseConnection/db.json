@@ -1,0 +1,11 @@
+{
+    "userName": "sa",
+    "password": "sa",
+    "server": "192.168.12.12",
+    "options": {
+        "port":"1435",
+        "database": "auto",
+        "useColumnNames": true,
+        "rowCollectionOnRequestCompletion": true
+    }
+}
