@@ -3,6 +3,7 @@ var TYPES = require('tedious').TYPES;
 var dbc = require('../DatabaseConnection/sqlDB')  //sqlDB已经执行了操作
 var showdatas = {}
 
+
 function getAllSQLServerTableNames(callback) {
     var sql = "SELECT NAME FROM  sysobjects t WHERE t.xtype='U'"
     var req = new Request(sql, function (err, rowCount, rows) {
